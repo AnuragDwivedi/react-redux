@@ -64,4 +64,4 @@ typings/
 .vs 
 
 # Bundle files
-dist/**.js
+dist/*.js

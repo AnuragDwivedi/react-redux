@@ -10,5 +10,6 @@
         "typeRoots": [
             "./node_modules/@types"
         ],
+        "moduleResolution": "node"
     }
 }
