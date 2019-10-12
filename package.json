@@ -5,7 +5,8 @@
   "repository": "https://github.com/AnuragDwivedi/react-redux.git",
   "author": "dwivedi.anurag007@gmail.com",
   "scripts": {
-    "start": "webpack-dev-server"
+    "build": "webpack",
+    "start": "npm run-script build && webpack-dev-server"
   },
   "license": "MIT",
   "devDependencies": {
@@ -24,7 +25,6 @@
   "dependencies": {
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
-    "@types/redux": "^3.6.0",
     "@types/react-redux": "^7.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
